@@ -1,0 +1,52 @@
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+@keyframes borderNeon{
+    0% {
+        border: 4px solid rgb(0, 132, 255);
+    }
+    25% {
+        border: 4px solid rgb(255, 55, 0);
+    }
+    50% {
+        border: 4px solid rgb(255, 157, 0);
+    }
+    75% {
+        border: 4px solid rgb(85, 255, 0);
+    }
+    100% {
+        border: 4px solid rgb(0, 132, 255);
+    }
+}
+
+@keyframes title {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        
+        text-shadow:
+        0 0 21px #fff,
+        0 0 42px rgb(242, 215, 209),
+        0 0 52px rgb(239, 149, 129),
+        0 0 62px rgb(238, 114, 86),
+        0 0 72px rgb(233, 90, 57),
+        0 0 82px rgb(239, 63, 23);
+        font-size: 30px;
+        
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
